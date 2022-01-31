@@ -1,5 +1,5 @@
 import React from "react";
-import Error from "../Images/error404.png";
+import Error from "../../Images/error404.png";
 
 const Erreur = () => {
   return (

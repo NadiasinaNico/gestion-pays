@@ -80,9 +80,10 @@ class PayListe extends React.Component {
     }
 
     return (
-      
+      <>
+      <Navbar />
         <div className="container">
-          <Navbar />
+          
 
           <FiltrePays
             active={this.state.regionSelectionner === "all"}
@@ -131,6 +132,7 @@ class PayListe extends React.Component {
           )}
           <div>{pagination} </div>
         </div>
+        </>
      
     );
   }
